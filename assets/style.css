@@ -40,3 +40,18 @@ header nav ul li a {
     margin: 0 30px;
     font-size: 36px;
 }
+
+.hero {
+    background-image: url("../assets/images/hero.jpeg");
+    height: 200px;
+}
+
+section {
+    padding: 60px;
+}
+
+.hero-subtitle {
+    color: var(--secondary-color);
+    font-size: 30px;
+    float: right;
+}
