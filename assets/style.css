@@ -177,14 +177,39 @@ section {
     display: block;
     margin-left: auto;
     margin-right: auto;
+   
     
 }
 
-.run-buddy:hover {
+
+.work-captions {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-size: 36px;
+    font-weight: bold;
+    border: solid 3px var(--secondary-color);
+    position: absolute;
+    left: 43%;
+    top: 32%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: none;
+
+
+}
+
+.run-buddy img:hover {
     opacity: 0.5;
-    
+
 
 }
+
+
 
 
 
