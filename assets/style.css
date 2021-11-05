@@ -67,27 +67,34 @@ section {
 }
 
 .mainbody {
-    width: 1400px;
+    width: 1500px;
     position: relative;
-    left: 100px;
+    left: 125px;
+    
 }
 
 .body-titles {
     font-size: 50px;
     color: var(--primary-color);
-    display: inline-block;
-    text-align: right;
+    margin: 0 auto;
+    width: 30%;
+    border-bottom: 3px solid var(--primary-color);
+    text-align: center;
+    padding-bottom: 10px;
+    
+   
 }
+
 
 .bodycontent {
     font-size: 20px;
     color: var(--secondary-color);
-    border-left: 3px solid;
     border-color: var(--primary-color);
+    padding-top: 20px;
     padding-left: 30px;
     position: relative;
-    left: 275px;
-    bottom: 50px;
+    text-align: center;
+    
 }
 
 .contact-links {
@@ -140,10 +147,12 @@ section {
     display: inline;
     position: relative;
     bottom: 100px;
+    right: 500px;
 }
 
 .run-buddy:hover {
     opacity: 0.5;
+    
 
 }
 
@@ -152,3 +161,12 @@ section {
     padding-right: 30px;
 
 }
+
+.about-me-title {
+    
+
+}
+
+
+
+/* ADD MOBILE FRIENDLY CSS CODE HERE*/
