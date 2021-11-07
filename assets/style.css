@@ -208,10 +208,45 @@ section {
     
 }
 
+.placeholder1 {
+    padding-top: 20px;
+
+}
+
+.placeholder1 img {
+    border: solid 3px var(--primary-color);
+    border-radius: 10px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.placeholder2 {
+    padding-top: 20px;
+}
+
+.placeholder2 img {
+    border: solid 3px var(--primary-color);
+    border-radius: 10px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .run-buddy img:hover {
     opacity: 0.5;
 
+}
 
+.placeholder1 img:hover {
+    opacity: 0.5;
+}
+
+.placeholder2 img:hover {
+    opacity: 0.5;
 }
 
 /*Adding mobile friendly css here for screen sizes less than 1175px */
