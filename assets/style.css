@@ -214,7 +214,7 @@ section {
 
 }
 
-
+/*Adding mobile friendly css here for screen sizes less than 1175px */
 @media screen and (max-width: 1175px) {
     .contact-links {
         justify-content: center;
@@ -243,4 +243,3 @@ section {
 
 
 
-/* ADD MOBILE FRIENDLY CSS CODE HERE*/
