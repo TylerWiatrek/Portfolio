@@ -28,7 +28,14 @@ Here users will find a link to my work displaying my talents as a software devel
 ![Screenshot of Run-Buddy Website](./assets/images/readme-runbuddy.jpg "Run-Buddy")
 
 
+## Contact Me
 
+Here users will be displayed with 3 ways to contact me if needed.
+* Phone - 830.299.2545
+* Email - wiatrektyler@yahoo.com
+* GitHub - https://github.com/TylerWiatrek
+
+Clicking the e-mail link will allow the user to directly e-mail me using whatever default e-mail application is on their current device. Clicking the GitHub link will take the user to my GitHub page.
 
 
 
