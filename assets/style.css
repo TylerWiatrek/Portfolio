@@ -64,6 +64,28 @@ header nav ul li a:hover {
     align-items: flex-start;
 }
 
+.avatar {
+  
+    position: absolute;
+    /*right: 1100px;
+    bottom: 51px;*/
+    display: flex;
+    justify-content: flex-start;
+    left: 100px;
+    top: 101px;
+
+}
+
+.avatar img {
+    max-width: 300px;
+    max-height: 300px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
 section {
     padding: 60px;
 }
@@ -77,11 +99,7 @@ section {
     position: relative;
     top: 50px;
 }
-/*
-.mainbody {
-    /*width: 1000px;*/
-    /*position: relative;
-    left: 125px;*/
+
     
 
 
@@ -110,29 +128,29 @@ section {
 }
 
 .contact-links {
-    /*float: right;*/
+   
     text-align: center;
     position: relative;
     top: 100px;
     margin-right: auto;
     margin-left: auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+   
    
    
 }
 
 .contact-links ul li {
     display: inline;
-    padding: 150px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
    
 
 }
 
 .contact-links ul li p {
     color: var(--secondary-color);
-    /*margin: 0 30px;*/
     margin-left: auto;
     margin-right: auto;
     font-size: 25px;
@@ -190,28 +208,6 @@ section {
     
 }
 
-
-.work-captions {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    font-size: 36px;
-    font-weight: bold;
-    border: solid 3px var(--secondary-color);
-    position: absolute;
-    left: 43%;
-    top: 32%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    padding-right: 15px;
-    padding-left: 15px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    display: none;
-
-
-}
-
 .run-buddy img:hover {
     opacity: 0.5;
 
@@ -219,7 +215,7 @@ section {
 }
 
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1175px) {
     .contact-links {
         justify-content: center;
         flex-direction: column;
@@ -231,6 +227,15 @@ section {
     .body-content p {
         font-size: 10px;
     }
+
+    .avatar {
+        justify-content: flex-start;
+        margin-top: 55px;
+        width: 100%;
+      
+    }
+
+    
 
     
 }
