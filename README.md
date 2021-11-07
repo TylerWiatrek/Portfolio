@@ -23,6 +23,10 @@ Below is a list of work to showcase my skills as a developer. You will see a lin
 
 ## Work
 
+Here users will find a link to my work displaying my talents as a software developer. The user will just need to simply hover over the picture and click it. This will take the user to the full website. Below is a screenshot of what the user will see:
+
+![Screenshot of Run-Buddy Website](./assets/images/readme-runbuddy.jpg "Run-Buddy")
+
 
 
 
